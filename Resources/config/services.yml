@@ -1,0 +1,7 @@
+parameters:
+#    claudusd_secure_chat.example.class: Claudusd\SecureChatBundle\Example
+
+services:
+#    claudusd_secure_chat.example:
+#        class: %claudusd_secure_chat.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

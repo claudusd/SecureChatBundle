@@ -1,0 +1,33 @@
+{
+    "name": "claudusd/secure-chat-bundle",
+    "type": "symfony-bundle",
+    "description": "A chat system using encryption",
+    "keywords": ["rest", "chat", "openssl", "AES"],
+    "homepage": "http://secure-chat.dioudonnat.fr",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Claude Dioudonnat",
+            "email": "claude.dioudonnat@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php":">=5.3.2",
+        "symfony/framework-bundle":"~2.3",
+        "doctrine/mongodb-odm-bundle": "3.0.*@dev"
+    },
+
+    "autoload": {
+        "psr-0": { "Claudusd\\SecureChatBundle": "" }
+    },
+
+    "target-dir": "Claudusd/SecureChatBundle",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.13.x-dev"
+        }
+    }
+}
