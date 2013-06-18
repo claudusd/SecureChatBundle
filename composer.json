@@ -25,9 +25,5 @@
 
     "target-dir": "Claudusd/SecureChatBundle",
 
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.13.x-dev"
-        }
-    }
+    "minimum-stability": "dev"
 }
