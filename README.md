@@ -4,6 +4,7 @@ The **SecureChatBundle** bundle create an API to chat with people with message e
 
 ## Installation ##
 Add this bundle to your `composer.json` file:
+
 	"require": {
         "claudusd/SecureChatBundle": "*"
     },
@@ -13,3 +14,9 @@ Add this bundle to your `composer.json` file:
             "url":  "https://github.com/claudusd/SecureChatBundle.git"
         }
     ]
+
+Add in your `app/autoload.php` file :
+
+use Doctrine\ODM\MongoDB\Mapping\Driver\AnnotationDriver;
+AnnotationDriver::registerAnnotationClasses();
+
